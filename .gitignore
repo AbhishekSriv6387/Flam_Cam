@@ -1,0 +1,33 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+/.cxx
+/app/build
+/build
+/app/.cxx/
+!/app/src/main/java/com/edgeviewer/app/viewmodel/**
+
+# Gradle
+.gradle/
+
+# NDK / CMake
+**/cmake-build-*/
+
+# VS Code / IntelliJ
+.vscode/
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+*.swp
+
+# Node
+node_modules/
+web/node_modules/
+web/dist/
+package-lock.json
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
